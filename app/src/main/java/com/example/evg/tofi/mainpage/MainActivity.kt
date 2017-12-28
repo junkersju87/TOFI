@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    val data : List<EventModel> = mutableListOf(EventModel("1","2","3","4","5"))
+    val data : List<EventModel> = mutableListOf(EventModel("АЛакарыб","АТАЛЖДАТЛВДТАДВТАЛДВАТДЛт","3","4","5"))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

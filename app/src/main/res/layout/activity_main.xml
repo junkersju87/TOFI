@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/back_grad"
     android:layout_height="match_parent">
 
     <TextView
@@ -31,6 +32,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         android:id="@+id/authorization_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,11 +48,13 @@
         app:layout_constraintTop_toBottomOf="@+id/main_pager_rw" />
 
     <Button
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         android:id="@+id/registration_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
         android:layout_marginTop="8dp"
         android:text="РЕГИСТРАЦИЯ"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,11 +62,13 @@
         app:layout_constraintTop_toBottomOf="@+id/main_pager_rw" />
 
     <Button
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         android:id="@+id/user_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:text="ПРОФИЛЬ"
         app:layout_constraintBottom_toBottomOf="parent"
